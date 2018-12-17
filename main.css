@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  background-color: snow;
+}
+header {
+  padding: 15px 60px;
+}
+#logo {
+  color: white;
+}
+#logo li {
+  margin: 0;
+  width: 40px;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+.login-bar {
+  float: right;
+}
+
+#n {
+  background-color: crimson;
+  font-size: 40px;
+}
+#p {
+  background-color: black;
+  font-size: 40px;
+  
+}
+#r {
+  background-color: steelblue;
+  font-size: 40px;
+  
+}
+nav {
+  background-color: #4a4a4a;
+  color: white;
+  font-weight: bold;
+  height: 45px;
+  padding-left: 50px;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.container {
+  margin: 10px 0px 10px 60px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.articles {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.main-article {
+  border: 1px gray solid; 
+  background-color: white;
+  display: flex;
+}
+
+.article-text {
+  width: 50%; 
+  margin: 20px;
+}
+.main-image {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 20px;
+}
+h5 {
+  color: gray;
+  font-size: 80%;
+  padding: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  /* float: left; */
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.sub-articles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sub-article {
+  width: 33%;
+  margin: 0 20px;
+  background: white;
+  border: 1px gray solid;
+  padding: 20px;
+}
+.sub-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 150px;
+}
+#roadblock {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2018%2F12%2F17%2Fgettyimages-182950353_wide-32456c0b50f2ef3c4233a81fe2a3b9c46370c903-s900-c85.jpg");
+}
+#drugs {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2018%2F12%2F17%2Fap_18285725942242_wide-3637e397ff62e300c51d721b4a2179313f671b4a-s700-c85.jpg");
+  
+}
+#weinstein {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2018%2F12%2F17%2Fgettyimages-967760692_wide-caddf30a8a1ac938d3ca9ba7cb0592439959927f-s700-c85.jpg");
+}
+#tv {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2018%2F12%2F17%2Ftv-composite_wide-56e86e8e2293907c469e908af30197aaa6cb848a-s700-c85.jpg");
+}
+
+.sidebar {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Ftpc.googlesyndication.com%2Fpagead%2Fimgad%3Fid%3DCICAgKDbneWvHxABGAEyCFFL9C97gBjF");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 20px;
+}
